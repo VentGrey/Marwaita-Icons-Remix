@@ -7,8 +7,10 @@ Original Icon theme: https://github.com/darkomarko42/Marwaita-Icons
 
 Other icon themes used for this:
 
-- https://www.pling.com/p/1405455/
-- https://www.pling.com/p/1374624/
+- https://www.pling.com/p/1405455/ - **Luna Icons**
+- https://www.pling.com/p/1374624/ - **Marwaita Icons OSX**
+- https://github.com/PapirusDevelopmentTeam/papirus-icon-theme - **Papirus Icon Theme**
+
 
 ## Description :pencil:
 
