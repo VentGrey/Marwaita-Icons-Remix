@@ -43,6 +43,22 @@ This is a "remix" or revival of the popular Marwaita Icon theme made by Darkomar
 
 This icon pack pretends to revive his work by mixing the current Luna Icons and Marwaita OSX icons to be as close as possible to the original work of Darkomarko42 in the current icon-remix, so, no icons from other sources will be added.
 
+## Install
+
+If you want to install Marwaita using the provided installation script you can
+run the following:
+
+``` sh
+# To install on ~/.icons/
+$ ./install.sh
+
+# System wide install on /usr/share/icons
+$ sudo ./install.sh
+```
+
+`
+
+
 ## Disclaimer :warning:
 
 I only pasted the icons together and handpicked others, no special work was done here.
