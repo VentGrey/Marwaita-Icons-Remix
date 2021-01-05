@@ -14,7 +14,7 @@
    viewBox="0 0 18 18"
    id="svg57"
    sodipodi:docname="user-desktop.svg"
-   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata61">
     <rdf:RDF>
@@ -36,20 +36,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="691"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
      id="namedview59"
      showgrid="false"
      inkscape:zoom="8.7423974"
-     inkscape:cx="12.298158"
-     inkscape:cy="13.614747"
+     inkscape:cx="14.312899"
+     inkscape:cy="22.537619"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="g55"
      showguides="true"
      inkscape:guide-bbox="true"
-     units="px">
+     units="px"
+     inkscape:document-rotation="0">
     <sodipodi:guide
        position="15.481918,42.396636"
        orientation="1,0"
@@ -230,19 +231,19 @@
     </linearGradient>
     <linearGradient
        id="linear0-2"
-       x1="-127.093"
-       x2="920.763"
-       y1="1098.019"
-       y2="264.36099"
+       x1="4.5538602"
+       x2="531.46478"
+       y1="980.43256"
+       y2="499.05988"
        gradientTransform="matrix(0.03191489,0,0,0.03500741,0.82977216,347.47854)"
        gradientUnits="userSpaceOnUse">
       <stop
          offset="0"
-         style="stop-color:#a900de;stop-opacity:1"
+         style="stop-color:#2e75c7;stop-opacity:1"
          id="stop2-5" />
       <stop
          offset="1"
-         style="stop-color:#99ccff;stop-opacity:1"
+         style="stop-color:#00ba79;stop-opacity:1"
          id="stop4-2" />
     </linearGradient>
   </defs>
