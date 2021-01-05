@@ -13,7 +13,7 @@
    version="1.1"
    viewBox="0 0 18 18"
    id="svg21"
-   sodipodi:docname="folder-blue (copia).svg"
+   sodipodi:docname="user-home.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata25">
@@ -36,16 +36,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="960"
+     inkscape:window-width="1920"
      inkscape:window-height="1011"
      id="namedview23"
      showgrid="false"
-     inkscape:zoom="14.75"
-     inkscape:cx="9.3820715"
-     inkscape:cy="19.789782"
+     inkscape:zoom="59"
+     inkscape:cx="10.471807"
+     inkscape:cy="14.932702"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g19"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -165,6 +165,11 @@
        d="M 1.6752336,380.81895 H 16.324766"
        id="path924"
        inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-opacity:0.5;stroke-width:0.428571"
+       d="m 6.1091271,376.17547 h 0.642857 v 2.57143 h 1.7142858 v -1.71429 h 1.285714 v 1.71429 h 1.7142851 v -2.57143 h 0.642857 l -2.9999993,-3 z"
+       id="path2-3" />
     <path
        inkscape:connector-curvature="0"
        style="fill:#ffffff;stroke-width:0.428571"

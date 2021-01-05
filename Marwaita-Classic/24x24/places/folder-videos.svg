@@ -13,7 +13,7 @@
    version="1.1"
    viewBox="0 0 18 18"
    id="svg21"
-   sodipodi:docname="folder-blue (copia).svg"
+   sodipodi:docname="folder-videos.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata25">
@@ -36,16 +36,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="960"
+     inkscape:window-width="1920"
      inkscape:window-height="1011"
      id="namedview23"
      showgrid="false"
-     inkscape:zoom="20.85965"
-     inkscape:cx="11.383889"
-     inkscape:cy="18.317232"
+     inkscape:zoom="59"
+     inkscape:cx="8.8826965"
+     inkscape:cy="15.37118"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g19"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -165,6 +165,18 @@
        d="M 1.6752336,380.81895 H 16.324766"
        id="path924"
        inkscape:connector-curvature="0" />
+    <g
+       transform="matrix(0.42857135,0,0,0.4501441,-471.36091,492.5244)"
+       id="g4-6"
+       style="color:#bebebe;fill:#000000;fill-opacity:0.5">
+      <path
+         d="m 1114.75,-266 c -0.4147,-10e-4 -0.7511,0.33533 -0.75,0.75 v 13.5 c 0,0.415 0.335,0.75 0.75,0.75 h 12.5 c 0.416,0 0.75,-0.335 0.75,-0.75 v -13.5 c 0,-0.41467 -0.3353,-0.75111 -0.75,-0.75 z m 0.25,1 h 1 v 1 h -1 z m 10,1.00336 0.033,4.00511 c -8.078,0 -0.027,0.008 -8.078,0.0255 l 0.021,-4.03053 z M 1126,-265 h 1 v 1 h -1 z m -11,2 h 1 v 1 h -1 z m 11,0 h 1 v 1 h -1 z m -11,2 h 1 v 1 h -1 z m 11,0 h 1 v 1 h -1 z m -11,2 h 1 v 1 h -1 z m 11,0 h 1 v 1 h -1 z m -0.9672,2.00481 v 4.01214 l -8.0778,0.0593 v -4.07142 z M 1115,-257 h 1 v 1 h -1 z m 11,0 h 1 v 1 h -1 z m -11,2 h 1 v 1 h -1 z m 11,0 h 1 v 1 h -1 z m -11,2 h 1 v 1 h -1 z m 11,0 h 1 v 1 h -1 z"
+         overflow="visible"
+         style="overflow:visible;fill:#000000;fill-opacity:0.5;marker:none"
+         id="path2-7"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccssssccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+    </g>
     <g
        transform="matrix(0.42857135,0,0,0.4501441,-471.42848,492.41333)"
        id="g4"

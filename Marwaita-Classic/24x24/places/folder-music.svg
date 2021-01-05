@@ -13,7 +13,7 @@
    version="1.1"
    viewBox="0 0 18 18"
    id="svg21"
-   sodipodi:docname="folder-blue (copia).svg"
+   sodipodi:docname="folder-music.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata25">
@@ -36,16 +36,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="960"
+     inkscape:window-width="1920"
      inkscape:window-height="1011"
      id="namedview23"
      showgrid="false"
-     inkscape:zoom="20.85965"
-     inkscape:cx="9.8282423"
-     inkscape:cy="14.733834"
+     inkscape:zoom="41.7193"
+     inkscape:cx="10.664609"
+     inkscape:cy="13.386127"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g19"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -164,6 +164,12 @@
        style="opacity:0.4;fill:none;stroke:#000000;stroke-width:0.362095;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 1.6752336,380.81895 H 16.324766"
        id="path924"
+       inkscape:connector-curvature="0" />
+    <path
+       style="color:#4d4d4d;fill:#000000;fill-opacity:0.5;stroke:none;stroke-width:0.360288"
+       class="ColorScheme-Text"
+       d="m 10.697259,372.93255 -2.5537575,0.71467 c -0.1918621,0.0556 -0.3466541,0.27686 -0.3466541,0.49184 v 3.40863 c -0.194553,-0.11025 -0.444436,-0.15482 -0.7034819,-0.082 -0.467452,0.13146 -0.76008,0.55618 -0.659878,0.94866 0.100203,0.39249 0.560883,0.61138 1.0283339,0.47992 0.37293,-0.10487 0.62978,-0.40101 0.670779,-0.71391 l 0.01091,-3.22159 2.4243986,-0.70274 v 2.54194 c -0.194555,-0.11026 -0.444438,-0.15482 -0.7034822,-0.082 -0.467453,0.13145 -0.760809,0.55617 -0.660606,0.94866 0.100202,0.39249 0.560884,0.61138 1.0283352,0.47993 0.37293,-0.10488 0.62978,-0.40101 0.670778,-0.71392 l 0.01091,-4.19335 c 0,-0.16123 -0.09219,-0.28212 -0.216568,-0.3048 z"
+       id="path4-0"
        inkscape:connector-curvature="0" />
     <path
        style="color:#4d4d4d;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.360288"

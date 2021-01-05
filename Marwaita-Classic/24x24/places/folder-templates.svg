@@ -13,7 +13,7 @@
    version="1.1"
    viewBox="0 0 18 18"
    id="svg21"
-   sodipodi:docname="folder-blue (copia).svg"
+   sodipodi:docname="folder-templates.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata25">
@@ -36,16 +36,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="960"
+     inkscape:window-width="1920"
      inkscape:window-height="1011"
      id="namedview23"
      showgrid="false"
-     inkscape:zoom="29.5"
-     inkscape:cx="10.181034"
-     inkscape:cy="16.563989"
+     inkscape:zoom="59"
+     inkscape:cx="9.5950304"
+     inkscape:cy="13.254737"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g19"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -165,6 +165,11 @@
        d="M 1.6752336,380.81895 H 16.324766"
        id="path924"
        inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-opacity:0.5;stroke-width:0.428571"
+       d="m 8.2853325,372.62608 v 0.85714 H 7.8567611 c -0.2357143,0 -0.4285714,0.19286 -0.4285714,0.42857 v 1.71429 l 0.2314285,0.23143 -1.4614284,2.55428 -0.055714,1.07143 0.8014284,-0.64286 0.3085715,-0.54428 c 0.4585713,0.21428 0.9557142,0.33 1.4614287,0.33 0.5057142,0 1.002857,-0.11572 1.4614276,-0.33 l 0.308571,0.54428 0.801429,0.64286 -0.05572,-1.07143 -0.329999,-0.57428 c 0.788571,-0.65143 1.242857,-1.62 1.242857,-2.64 h -0.857143 c 0,0.71142 -0.295714,1.39285 -0.818571,1.87714 l -0.6985716,-1.21714 0.231429,-0.23143 v -1.71429 c 0,-0.23571 -0.192857,-0.42857 -0.428571,-0.42857 h -0.428567 v -0.85714 z m 0.4285716,1.71428 c 0.2357136,0 0.4285707,0.19286 0.4285707,0.42857 0,0.23572 -0.1928571,0.42858 -0.4285707,0.42858 -0.2357145,0 -0.4285717,-0.19286 -0.4285717,-0.42858 0,-0.23571 0.1928572,-0.42857 0.4285717,-0.42857 z m -0.4242859,2.14286 c 0.27,0.13286 0.5399994,0.23143 0.8485709,0 l 0.6085713,1.06714 c -0.325714,0.14143 -0.6771427,0.21857 -1.0328563,0.21857 -0.3557145,0 -0.707143,-0.0771 -1.0328575,-0.21857 z"
+       id="path2-5" />
     <path
        inkscape:connector-curvature="0"
        style="fill:#ffffff;stroke-width:0.428571"

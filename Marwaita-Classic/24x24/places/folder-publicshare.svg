@@ -13,7 +13,7 @@
    version="1.1"
    viewBox="0 0 18 18"
    id="svg21"
-   sodipodi:docname="folder-blue (copia).svg"
+   sodipodi:docname="folder-publicshare.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata25">
@@ -36,16 +36,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="960"
+     inkscape:window-width="1920"
      inkscape:window-height="1011"
      id="namedview23"
      showgrid="false"
-     inkscape:zoom="29.5"
-     inkscape:cx="10.16392"
-     inkscape:cy="15.615335"
+     inkscape:zoom="41.7193"
+     inkscape:cx="6.9084818"
+     inkscape:cy="15.211714"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g19"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -165,6 +165,17 @@
        d="M 1.6752336,380.81895 H 16.324766"
        id="path924"
        inkscape:connector-curvature="0" />
+    <g
+       transform="matrix(0.42854082,0,0,0.42854082,-496.98056,512.84428)"
+       id="g4-1"
+       style="fill:#000000;fill-opacity:0.5">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 1185.68,-326.06 a 2.5,2.5 0 0 0 -2.5,2.5 2.5,2.5 0 0 0 0.05,0.482 l -4.846,2.693 a 2.5,2.5 0 0 0 -1.705,-0.676 2.5,2.5 0 0 0 -2.5,2.5 2.5,2.5 0 0 0 2.5,2.5 2.5,2.5 0 0 0 1.717,-0.683 l 4.834,2.687 a 2.5,2.5 0 0 0 -0.05,0.496 2.5,2.5 0 0 0 2.5,2.5 2.5,2.5 0 0 0 2.5,-2.5 2.5,2.5 0 0 0 -2.5,-2.5 2.5,2.5 0 0 0 -1.722,0.688 l -4.832,-2.688 a 2.5,2.5 0 0 0 0.053,-0.5 2.5,2.5 0 0 0 -0.057,-0.513 l 4.828,-2.684 a 2.5,2.5 0 0 0 1.73,0.697 2.5,2.5 0 0 0 2.5,-2.5 2.5,2.5 0 0 0 -2.5,-2.5 z"
+         overflow="visible"
+         style="color:#000000;overflow:visible;isolation:auto;mix-blend-mode:normal;fill:#000000;fill-opacity:0.5;fill-rule:evenodd"
+         id="path2-2" />
+    </g>
     <g
        transform="matrix(0.42854082,0,0,0.42854082,-497.18363,512.78045)"
        id="g4"

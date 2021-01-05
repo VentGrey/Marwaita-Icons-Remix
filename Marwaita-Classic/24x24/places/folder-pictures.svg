@@ -13,7 +13,7 @@
    version="1.1"
    viewBox="0 0 18 18"
    id="svg21"
-   sodipodi:docname="folder-blue (copia).svg"
+   sodipodi:docname="folder-pictures.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata25">
@@ -36,16 +36,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="960"
+     inkscape:window-width="1920"
      inkscape:window-height="1011"
      id="namedview23"
      showgrid="false"
-     inkscape:zoom="20.85965"
-     inkscape:cx="14.775431"
-     inkscape:cy="15.070449"
+     inkscape:zoom="29.5"
+     inkscape:cx="8.9587473"
+     inkscape:cy="14.419442"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g19"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -165,6 +165,11 @@
        d="M 1.6752336,380.81895 H 16.324766"
        id="path924"
        inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-opacity:0.5;stroke-width:0.428571"
+       d="m 6.6520983,373.6536 c -0.4285714,0 -0.4285714,0.42857 -0.4285714,0.42857 v 4.28572 c 0,0.42857 0.4285714,0.42857 0.4285714,0.42857 h 5.1428557 c 0,0 0.428572,0 0.428572,-0.42857 v -4.28572 c 0,-0.42857 -0.428572,-0.42857 -0.428572,-0.42857 z m 1.5,1.95429 1.4185712,1.60714 0.9128565,-0.88286 0.882857,0.88286 v 0.72429 H 7.0806697 v -1.07143 z"
+       id="path2-7" />
     <path
        inkscape:connector-curvature="0"
        style="fill:#ffffff;stroke-width:0.428571"

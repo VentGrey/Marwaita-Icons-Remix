@@ -13,7 +13,7 @@
    version="1.1"
    viewBox="0 0 18 18"
    id="svg21"
-   sodipodi:docname="folder-blue (copia).svg"
+   sodipodi:docname="folder-download.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata25">
@@ -36,16 +36,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="960"
+     inkscape:window-width="1920"
      inkscape:window-height="1011"
      id="namedview23"
      showgrid="false"
-     inkscape:zoom="20.85965"
-     inkscape:cx="8.0007425"
-     inkscape:cy="21.08142"
+     inkscape:zoom="59"
+     inkscape:cx="10.691377"
+     inkscape:cy="15.569185"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g19"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -165,6 +165,12 @@
        d="M 1.6752336,380.81895 H 16.324766"
        id="path924"
        inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       d="m 9.1043113,373.59702 c -1.6619974,0 -2.9999951,1.338 -2.9999951,2.99999 0,1.66201 1.3379977,3.00001 2.9999951,3.00001 1.6619967,0 2.9999947,-1.338 2.9999947,-3.00001 0,-1.66199 -1.337998,-2.99999 -2.9999947,-2.99999 z m 0,1.28571 c 0.237427,0 0.428571,0.19115 0.428571,0.42857 v 1.28571 h 0.42857 a 0.42861354,0.42861354 0 0 1 0.3030127,0.7316 l -0.8571417,0.85713 a 0.42861354,0.42861354 0 0 1 -0.606025,0 l -0.8571417,-0.85713 a 0.42861354,0.42861354 0 0 1 0.303013,-0.73161 h 0.4285707 v -1.28571 c 0,-0.23741 0.191143,-0.42857 0.428571,-0.42856 z"
+       style="fill:#000000;fill-opacity:0.5;stroke:none;stroke-width:0.428571"
+       class="ColorScheme-Text"
+       id="path4-9" />
     <path
        inkscape:connector-curvature="0"
        d="M 8.9999949,373.5 C 7.3379977,373.5 6,374.838 6,376.49999 6,378.162 7.3379977,379.5 8.9999949,379.5 c 1.6619971,0 2.9999951,-1.338 2.9999951,-3.00001 0,-1.66199 -1.337998,-2.99999 -2.9999951,-2.99999 z m 0,1.28571 c 0.2374276,0 0.4285708,0.19115 0.4285708,0.42857 v 1.28571 h 0.4285706 a 0.42861355,0.42861355 0 0 1 0.3030127,0.7316 l -0.8571416,0.85713 a 0.42861355,0.42861355 0 0 1 -0.6060255,0 l -0.8571415,-0.85713 a 0.42861355,0.42861355 0 0 1 0.303013,-0.73161 h 0.4285708 v -1.28571 c 0,-0.23741 0.1911425,-0.42857 0.4285707,-0.42856 z"

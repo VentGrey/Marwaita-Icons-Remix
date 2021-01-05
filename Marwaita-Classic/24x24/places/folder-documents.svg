@@ -36,16 +36,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="960"
+     inkscape:window-width="1920"
      inkscape:window-height="1011"
      id="namedview23"
      showgrid="false"
      inkscape:zoom="41.7193"
-     inkscape:cx="14.065185"
-     inkscape:cy="16.306064"
+     inkscape:cx="15.681526"
+     inkscape:cy="13.885618"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g19"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -135,6 +135,12 @@
        d="M 1.9926014,369.41349 C 1.7197814,369.41349 1.5,369.64772 1.5,369.9389 v 10.65011 c 0,0.2226 0.1680146,0.40201 0.3768982,0.40201 H 16.123101 c 0.208884,0 0.376899,-0.17941 0.376899,-0.40201 v -9.26159 c 0,-0.43843 -0.330763,-0.79123 -0.741809,-0.79123 H 8.1217821 c -0.2027078,0 -0.2829914,-0.0255 -0.4128628,-0.15575 l -0.7661472,-0.80983 c -0.00257,-0.003 -0.00529,-0.006 -0.00781,-0.008 l -0.00164,-0.002 c -0.08845,-0.0907 -0.208875,-0.14683 -0.3421971,-0.14683 z m 0,0"
        id="path13"
        inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:#000000;fill-opacity:0.498809;stroke:none;stroke-width:0.375"
+       class="ColorScheme-Text"
+       d="m 7.7109397,377.76783 a 1.6499998,1.6499998 0 0 1 -1.6499998,-1.65 1.6499998,1.6499998 0 0 1 1.6499998,-1.65 H 10.86094 a 1.1999998,1.1999998 0 0 1 1.2,1.2 1.1999998,1.1999998 0 0 1 -1.2,1.2 H 8.3109398 a 0.74999996,0.74999996 0 0 1 -0.7500001,-0.75 0.74999996,0.74999996 0 0 1 0.7500001,-0.75 H 10.56094 v 0.45 H 8.3109398 a 0.29999997,0.29999997 0 0 0 -0.3000001,0.3 0.29999997,0.29999997 0 0 0 0.3000001,0.3 H 10.86094 a 0.74999996,0.74999996 0 0 0 0.75,-0.75 0.74999996,0.74999996 0 0 0 -0.75,-0.75 H 7.7109397 a 1.1999998,1.1999998 0 0 0 -1.1999998,1.2 1.1999998,1.1999998 0 0 0 1.1999998,1.2 H 10.56094 v 0.45 z"
+       id="path4-6" />
     <rect
        style="opacity:1;fill:#000000;fill-opacity:0.58823529;stroke:none;stroke-width:7.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter908)"
        id="rect972-0"
