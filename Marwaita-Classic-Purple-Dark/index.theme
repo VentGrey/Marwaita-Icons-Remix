@@ -1,7 +1,7 @@
 [Icon Theme]
-Name=Marwaita Purple
-Comment=Marwaita icon theme with Purple folders
-Inherits=Marwaita Yellow
+Name=Marwaita Classic Purple Dark
+Comment=Classic Marwaita icon theme with Purple folders
+Inherits=Marwaita Purple, Marwaita, Luna, Papirus
 Example=folder
 
 FollowsColorScheme=true
