@@ -1,10 +1,11 @@
 #! /usr/bin/bash
 
 USR_DIR="/usr/share/icons/"
+USERD=$(id -u)
 
 # Check who is running this script
 
-if [[ "$(id -u)" -ne 0 ]]; then
+if [[ "$USERD" -ne 0 ]]; then
     echo "This will install Marwaita in $HOME/.icons/"
     echo "Do you want to proceed? Y/n:"
     read  -r ans
