@@ -1,6 +1,6 @@
 [Icon Theme]
 Name=Marwaita Classic
-Comment=Marwaita icon theme with Purple folders
+Comment=Marwaita Classic Icons
 Inherits=Marwaita,Papirus,hicolor
 Example=folder
 
