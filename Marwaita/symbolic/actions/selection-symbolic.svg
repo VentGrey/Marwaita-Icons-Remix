@@ -9,9 +9,10 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="16"
    height="16"
+   viewBox="0 0 16 16"
    version="1.1"
    id="svg7"
-   sodipodi:docname="playlist-queue-symbolic.svg"
+   sodipodi:docname="select-symbolic.svg"
    inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
   <metadata
      id="metadata11">
@@ -35,7 +36,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1001"
+     inkscape:window-height="1000"
      id="namedview9"
      showgrid="false"
      inkscape:zoom="41.625"
@@ -56,6 +57,7 @@
   <path
      style="fill:currentColor"
      class="ColorScheme-Text"
-     d="M 1,1 V 3 H 15 V 1 Z M 9,5 V 15 H 14 V 16 H 16 V 14 H 15 V 5 Z M 1,5 V 7 H 7 V 5 Z M 11,7 H 13 V 13 H 11 Z M 1,9 V 11 H 7 V 9 Z M 1,13 V 15 H 7 V 13 Z"
-     id="path5" />
+     d="M 2,1 C 2,1 1,1.0186 1,2 V 3 H 3 V 1 Z M 5,1 V 3 H 7 V 1 Z m 4,0 v 2 h 2 V 1 Z m 4,0 v 2 h 2 V 2 C 15,1.01859 14,1 14,1 Z M 1,5 V 7 H 3 V 5 Z m 12,0 v 2 h 2 V 5 Z M 1,9 v 2 H 3 V 9 Z m 12,0 v 2 h 2 V 9 Z M 1,13 v 1 c 0,0.98141 1,1 1,1 h 1 v -2 z m 4,0 v 2 h 2 v -2 z m 4,0 v 2 h 2 v -2 z m 4,0 v 2 h 1 c 0,0 1,-0.0186 1,-1 v -1 z"
+     id="path5"
+     sodipodi:nodetypes="cscccccccccccccccccscccccccccccccccccccccccscccccccccccccccccscc" />
 </svg>
