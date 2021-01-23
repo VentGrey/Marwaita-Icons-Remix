@@ -62,6 +62,8 @@ help() {
 }
 
 install_gui() {
+
+    YAD_WIN="--window-icon='applications-graphics' --width='200' --height='500'"
     # Check if yad is installed
     if ! [ -x "$(command -v yad)" ]; then
         echo 'Error: yad is required for GUI installation.' >&2
