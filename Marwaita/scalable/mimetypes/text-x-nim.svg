@@ -1,10 +1,1006 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" version="1">
- <path style="opacity:0.2" d="M 7.25,5 C 6.5575,5 6,5.5575 6,6.25 v 22.5 C 6,29.442 6.5575,30 7.25,30 h 17.5 C 25.442,30 26,29.442 26,28.75 V 13 L 19.125,11.875 18,5 Z"/>
- <path fill="#4f4f4f" d="m7.25 4c-0.6925 0-1.25 0.5575-1.25 1.25v22.5c0 0.692 0.5575 1.25 1.25 1.25h17.5c0.692 0 1.25-0.558 1.25-1.25v-15.75l-6.875-1.125-1.125-6.875z"/>
- <path fill="#fff" opacity=".1" d="m7.25 4c-0.6925 0-1.25 0.5575-1.25 1.25v1c0-0.6925 0.5575-1.25 1.25-1.25h10.75v-1z"/>
- <path style="opacity:0.2" d="m 18,5 v 6.6667 c 0,0.736 0.597,1.333 1.333,1.333 H 26 l -8,-8 z"/>
- <path fill="#696969" d="m18 4v6.6667c0 0.736 0.597 1.333 1.333 1.333h6.667l-8-8z"/>
- <path style="opacity:0.2" d="m 16.064453,15.999616 c 0,0 -0.613274,0.486058 -1.238281,0.96875 -0.642949,-0.02049 -1.904599,0.123783 -2.587891,0.373047 -0.629452,-0.400002 -1.183594,-0.841797 -1.183593,-0.841797 0,0 -0.472313,0.816296 -0.769532,1.294922 C 9.8443709,18.029691 9.402243,18.29421 9.0078125,18.644147 8.5490477,18.461414 8.0173571,18.237448 8,18.230085 c 0.6075409,1.229196 1.0159359,2.461388 2.126953,3.201172 1.768803,-2.802125 9.987598,-2.543593 11.792969,-0.01563 C 23.086671,20.805205 23.54115,19.491431 24,18.278913 c -0.05031,0.01662 -0.675359,0.226026 -1.080078,0.380859 -0.241643,-0.263885 -0.811049,-0.669381 -1.134766,-0.865234 -0.30706,-0.564013 -0.753906,-1.326172 -0.753906,-1.326172 0,0 -0.529046,0.395315 -1.142578,0.826172 -0.82887,-0.153472 -1.83063,-0.341092 -2.673828,-0.294922 -0.573997,-0.473246 -1.150391,-1 -1.150391,-1 z m 7.417969,4.822266 c -0.723757,1.075492 -1.901522,1.818836 -2.626953,2.21875 -0.515478,0.283263 -1.705078,0.455078 -1.705078,0.455078 l -3.123047,-1.623047 -3.140625,1.589844 c 0,0 -1.173781,-0.18838 -1.705078,-0.4375 -1.072309,-0.574178 -1.7923882,-1.252964 -2.5527348,-2.181641 0,0 0.8609391,2.091663 1.4589848,3.544922 2.534158,3.353605 9.005055,3.586269 11.826171,0.06445 0.667588,-1.509121 1.56836,-3.630859 1.56836,-3.630859 z"/>
- <path style="fill:#ffa700" d="m 16.063493,15.000005 c 0,0 -0.61309,0.485982 -1.238097,0.968674 -0.642949,-0.02049 -1.90401,0.123918 -2.587302,0.373182 -0.629452,-0.400002 -1.182538,-0.84164 -1.182538,-0.84164 0,0 -0.472622,0.81559 -0.769841,1.294216 -0.4407854,0.235153 -0.8833473,0.499642 -1.2777778,0.849579 -0.4587648,-0.182733 -0.99058,-0.405515 -1.0079371,-0.412878 0.6075409,1.229196 1.0159657,2.460019 2.1269829,3.199803 1.768803,-2.802125 9.98828,-2.543858 11.793651,-0.01589 1.166749,-0.610427 1.620516,-1.923762 2.079366,-3.13628 -0.05031,0.01662 -0.674645,0.226288 -1.079364,0.381121 -0.241643,-0.263885 -0.811206,-0.669606 -1.134923,-0.865459 -0.30706,-0.564013 -0.753968,-1.325974 -0.753968,-1.325974 0,0 -0.529325,0.3949 -1.142857,0.825757 -0.82887,-0.153472 -1.831407,-0.339952 -2.674605,-0.293782 C 16.640286,15.527188 16.063493,15 16.063493,15 Z"/>
- <path style="fill:#ffc504" d="m 8.6281677,19.843375 c 0,0 0.8611,2.091407 1.4591453,3.544666 2.534158,3.353605 9.005365,3.586746 11.826481,0.06493 0.667587,-1.509121 1.568241,-3.629964 1.568241,-3.629964 -0.723757,1.075492 -1.901627,1.817911 -2.627058,2.217825 -0.515478,0.283263 -1.704877,0.454483 -1.704877,0.454483 l -3.122627,-1.623146 -3.140567,1.590679 c 0,0 -1.173585,-0.189131 -1.704882,-0.438251 -1.072309,-0.574178 -1.7935097,-1.252543 -2.5538563,-2.18122 z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   version="1"
+   id="svg14"
+   sodipodi:docname="text-x-nim.svg"
+   inkscape:version="0.92.4 5da689c313, 2019-01-14">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs18">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1530">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1526" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop1528" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1530"
+       id="linearGradient1532"
+       x1="19.28974"
+       y1="4.1530704"
+       x2="19.290161"
+       y2="7.4608922"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="693"
+     id="namedview16"
+     showgrid="false"
+     showguides="false"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="19.666666"
+     inkscape:cx="12.398303"
+     inkscape:cy="40.627914"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg14">
+    <sodipodi:guide
+       position="40,28.705882"
+       orientation="0,1"
+       id="guide827"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="24.942769,44"
+       orientation="1,0"
+       id="guide829"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <g
+     id="g1075-2"
+     style="fill:#000000;fill-opacity:0.19607843"
+     transform="translate(0,1)">
+    <path
+       sodipodi:nodetypes="cccccccc"
+       inkscape:connector-curvature="0"
+       id="path1042-4"
+       d="M 27.988281,4 H 8 V 44 H 40 L 39.98828,15.986328 c -13.282156,-13.2821557 -13.282156,-13.2821557 0,0 h -12 z"
+       style="opacity:1;fill:#000000;fill-opacity:0.19607843;fill-rule:evenodd;stroke:none;stroke-width:114.80312347;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+    <path
+       inkscape:connector-curvature="0"
+       id="rect1011-4"
+       d="m 27.98828,4 v 11.986328 h 12 L 28.001952,4 Z"
+       style="opacity:1;fill:#000000;fill-opacity:0.19607843;fill-rule:evenodd;stroke:none;stroke-width:114.80312347;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+  </g>
+  <g
+     id="g1075"
+     style="fill:#f5f5f5;fill-opacity:1">
+    <path
+       sodipodi:nodetypes="cccccccc"
+       inkscape:connector-curvature="0"
+       id="path1042"
+       d="M 27.988281,4 H 8 v 40 h 32 l -0.01172,-28.013672 c -13.282156,-13.2821557 -13.282156,-13.2821557 0,0 h -12 z"
+       style="opacity:1;fill:#f5f5f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:114.80312347;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+    <path
+       inkscape:connector-curvature="0"
+       id="rect1011"
+       d="m 27.98828,4 v 11.986328 h 12 L 28.001952,4 Z"
+       style="opacity:1;fill:#f5f5f5;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:114.80312347;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+  </g>
+  <path
+     sodipodi:nodetypes="cccccccc"
+     inkscape:connector-curvature="0"
+     id="path1042-5"
+     d="M 27.867057,4.4863201 H 8.48632 V 43.51368 H 39.51368 L 39.50232,16.181188 c -12.878445,-12.9591862 -12.878445,-12.9591862 0,0 H 27.86706 Z"
+     style="opacity:0.4;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:url(#linearGradient1532);stroke-width:0.9726398;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+  <path
+     style="opacity:1;fill:#000000;fill-opacity:0.11764706;fill-rule:evenodd;stroke:none;stroke-width:114.80312347;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 28.001952,4 v 11.986329 h 12 L 28.015624,4 Z"
+     id="rect1011-5"
+     inkscape:connector-curvature="0" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 26.96854,14.08255 V 13.225904 H 22.682568 V 14.08255 H 26.96854"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.82052886"
+     id="path26187" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 12.337698,18.06985 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26219" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 13.63486,18.06985 V 17.213204 H 12.297164 V 18.06985 H 13.63486"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26221" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 14.932023,18.06985 v -0.856646 h -1.337697 v 0.856646 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26223" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 16.229185,18.06985 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26225" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 17.526347,18.06985 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26227" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 18.82351,18.06985 V 17.213204 H 17.485814 V 18.06985 H 18.82351"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26229" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 21.417834,18.06985 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26233" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 22.714997,18.06985 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26235" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 28.973891,18.06985 v -0.856646 h -5.005063 v 0.856646 h 5.005063"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.96733224"
+     id="path26237" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 12.337698,20.0635 V 19.206854 H 11.000002 V 20.0635 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26241" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 13.63486,20.0635 V 19.206854 H 12.297164 V 20.0635 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26243" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 14.932023,20.0635 V 19.206854 H 13.594326 V 20.0635 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26245" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 16.229185,20.0635 V 19.206854 H 14.891489 V 20.0635 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26247" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 17.526347,20.0635 V 19.206854 H 16.188651 V 20.0635 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26249" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 18.82351,20.0635 V 19.206854 H 17.485814 V 20.0635 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26251" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 21.417834,20.0635 V 19.206854 H 20.080138 V 20.0635 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26255" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 22.714997,20.0635 V 19.206854 H 21.377301 V 20.0635 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26257" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 24.012159,20.0635 V 19.206854 H 22.674463 V 20.0635 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26259" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 12.337698,22.05715 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26271" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 13.63486,22.05715 V 21.200504 H 12.297164 V 22.05715 H 13.63486"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26273" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 14.932023,22.05715 v -0.856646 h -1.337697 v 0.856646 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26275" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 18.831614,22.05715 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26277" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 20.128777,22.05715 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26279" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 21.425939,22.05715 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26281" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 22.723101,22.05715 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26283" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 24.020264,22.05715 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26285" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 25.317426,22.05715 V 21.200504 H 23.97973 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26287" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 26.614588,22.05715 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26289" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 27.911751,22.05715 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26291" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 31.811353,22.05715 v -0.856646 h -1.337707 v 0.856646 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26293" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 33.108515,22.05715 v -0.856646 h -1.337706 v 0.856646 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26295" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 34.405678,22.05715 v -0.856646 h -1.337707 v 0.856646 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26297" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 35.70284,22.05715 V 21.200504 H 34.365134 V 22.05715 H 35.70284"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26299" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 37.000002,22.05715 v -0.856646 h -1.337706 v 0.856646 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26301" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 12.337698,24.0508 V 23.194154 H 11.000002 V 24.0508 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26303" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 13.63486,24.0508 V 23.194154 H 12.297164 V 24.0508 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26305" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 14.932023,24.0508 V 23.194154 H 13.594326 V 24.0508 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26307" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 16.229185,24.0508 V 23.194154 H 14.891489 V 24.0508 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26309" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 20.128777,24.0508 V 23.194154 H 18.791081 V 24.0508 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26311" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 21.425939,24.0508 V 23.194154 H 20.088243 V 24.0508 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26313" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 22.723101,24.0508 V 23.194154 H 21.385405 V 24.0508 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26315" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 26.622703,24.0508 V 23.194154 H 25.284997 V 24.0508 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26317" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 27.919866,24.0508 V 23.194154 H 26.582159 V 24.0508 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26319" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 29.217028,24.0508 V 23.194154 H 27.879322 V 24.0508 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26321" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 30.514191,24.0508 V 23.194154 H 29.176484 V 24.0508 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26323" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 31.811353,24.0508 V 23.194154 H 30.473646 V 24.0508 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26325" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 33.108515,24.0508 V 23.194154 H 31.770809 V 24.0508 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26327" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 34.405678,24.0508 V 23.194154 H 33.067971 V 24.0508 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26329" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 35.70284,24.0508 V 23.194154 H 34.365134 V 24.0508 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26331" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 37.000002,24.0508 V 23.194154 H 35.662296 V 24.0508 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26333" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 12.337698,26.04445 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26335" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 13.63486,26.04445 V 25.187804 H 12.297164 V 26.04445 H 13.63486"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26337" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 14.932023,26.04445 v -0.856646 h -1.337697 v 0.856646 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26339" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 16.229185,26.04445 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26341" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 20.128777,26.04445 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26343" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 21.425939,26.04445 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26345" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 22.723101,26.04445 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26347" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 24.020264,26.04445 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26349" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 25.317426,26.04445 V 25.187804 H 23.97973 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26351" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 26.614588,26.04445 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26353" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 27.911751,26.04445 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26355" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 29.208913,26.04445 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26357" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 30.506076,26.04445 v -0.856646 h -1.337697 v 0.856646 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26359" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 31.803238,26.04445 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26361" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 33.1004,26.04445 V 25.187804 H 31.762704 V 26.04445 H 33.1004"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26363" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 12.337698,28.0381 V 27.181454 H 11.000002 V 28.0381 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26365" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 13.63486,28.0381 V 27.181454 H 12.297164 V 28.0381 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26367" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 14.932023,28.0381 V 27.181454 H 13.594326 V 28.0381 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26369" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 18.831614,28.0381 V 27.181454 H 17.493918 V 28.0381 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26371" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 20.128777,28.0381 V 27.181454 H 18.791081 V 28.0381 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26373" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 21.425939,28.0381 V 27.181454 H 20.088243 V 28.0381 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26375" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 22.723101,28.0381 V 27.181454 H 21.385405 V 28.0381 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26377" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 24.020264,28.0381 V 27.181454 H 22.682568 V 28.0381 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26379" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 25.317426,28.0381 V 27.181454 H 23.97973 V 28.0381 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26381" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 26.614588,28.0381 V 27.181454 H 25.276892 V 28.0381 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26383" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 30.514191,28.0381 V 27.181454 H 29.176484 V 28.0381 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26385" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 31.811353,28.0381 V 27.181454 H 30.473646 V 28.0381 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26387" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 33.108515,28.0381 V 27.181454 H 31.770809 V 28.0381 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26389" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 34.405678,28.0381 V 27.181454 H 33.067971 V 28.0381 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26391" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 12.337698,30.03175 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26393" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 13.63486,30.03175 V 29.175104 H 12.297164 V 30.03175 H 13.63486"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26395" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 14.932023,30.03175 v -0.856646 h -1.337697 v 0.856646 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26397" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 16.229185,30.03175 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26399" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 17.526347,30.03175 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26401" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 21.425939,30.03175 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26403" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 22.723101,30.03175 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26405" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 24.020264,30.03175 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26407" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 25.317426,30.03175 V 29.175104 H 23.97973 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26409" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 26.614588,30.03175 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26411" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 27.911751,30.03175 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26413" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 29.208913,30.03175 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26415" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 33.108515,30.03175 v -0.856646 h -1.337706 v 0.856646 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26417" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 34.405678,30.03175 v -0.856646 h -1.337707 v 0.856646 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26419" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 12.337698,32.0254 V 31.168753 H 11.000002 V 32.0254 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26421" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 13.63486,32.0254 V 31.168753 H 12.297164 V 32.0254 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26423" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 14.932023,32.0254 V 31.168753 H 13.594326 V 32.0254 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26425" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 16.229185,32.0254 V 31.168753 H 14.891489 V 32.0254 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26427" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 17.526347,32.0254 V 31.168753 H 16.188651 V 32.0254 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26429" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 18.82351,32.0254 V 31.168753 H 17.485814 V 32.0254 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26431" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 20.120672,32.0254 V 31.168753 H 18.782976 V 32.0254 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26433" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 21.417834,32.0254 V 31.168753 H 20.080138 V 32.0254 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26435" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 22.714997,32.0254 V 31.168753 H 21.377301 V 32.0254 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26437" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 26.614588,32.0254 V 31.168753 H 25.276892 V 32.0254 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26439" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 27.911751,32.0254 V 31.168753 H 26.574055 V 32.0254 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26441" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 12.337698,34.01905 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26443" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 13.63486,34.01905 V 33.162403 H 12.297164 V 34.01905 H 13.63486"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26445" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 14.932023,34.01905 v -0.856647 h -1.337697 v 0.856647 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26447" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 16.229185,34.01905 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26449" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 17.526347,34.01905 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26451" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 18.82351,34.01905 V 33.162403 H 17.485814 V 34.01905 H 18.82351"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26453" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 20.120672,34.01905 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26455" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 21.417834,34.01905 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26457" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 22.714997,34.01905 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26459" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 24.012159,34.01905 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26461" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 25.309321,34.01905 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26463" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 29.208913,34.01905 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26465" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 30.506076,34.01905 v -0.856647 h -1.337697 v 0.856647 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26467" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 12.337698,36.0127 V 35.156053 H 11.000002 V 36.0127 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26469" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 13.63486,36.0127 V 35.156053 H 12.297164 V 36.0127 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26471" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 14.932023,36.0127 V 35.156053 H 13.594326 V 36.0127 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26473" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 16.229185,36.0127 V 35.156053 H 14.891489 V 36.0127 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26475" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 17.526347,36.0127 V 35.156053 H 16.188651 V 36.0127 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26477" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 21.425939,36.0127 V 35.156053 H 20.088243 V 36.0127 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26479" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 22.723101,36.0127 V 35.156053 H 21.385405 V 36.0127 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26481" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 24.020264,36.0127 V 35.156053 H 22.682568 V 36.0127 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26483" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 25.317426,36.0127 V 35.156053 H 23.97973 V 36.0127 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26485" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 26.614588,36.0127 V 35.156053 H 25.276892 V 36.0127 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26487" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 27.911751,36.0127 V 35.156053 H 26.574055 V 36.0127 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26489" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 29.208913,36.0127 V 35.156053 H 27.871217 V 36.0127 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26491" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 30.506076,36.0127 V 35.156053 H 29.168379 V 36.0127 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26493" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 31.803238,36.0127 V 35.156053 H 30.465542 V 36.0127 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26495" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 35.70284,36.0127 V 35.156053 H 34.365134 V 36.0127 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26497" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 37.000002,36.0127 V 35.156053 H 35.662296 V 36.0127 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26499" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 12.337698,38.00635 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26501" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 13.63486,38.00635 V 37.149703 H 12.297164 V 38.00635 H 13.63486"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26503" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 14.932023,38.00635 v -0.856647 h -1.337697 v 0.856647 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26505" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 16.229185,38.00635 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26507" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 17.526347,38.00635 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26509" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 18.82351,38.00635 V 37.149703 H 17.485814 V 38.00635 H 18.82351"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26511" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 22.723101,38.00635 v -0.856647 h -1.337696 v 0.856647 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26513" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 26.622703,38.00635 v -0.856647 h -1.337706 v 0.856647 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26515" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 27.919866,38.00635 v -0.856647 h -1.337707 v 0.856647 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26517" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 29.217028,38.00635 v -0.856647 h -1.337706 v 0.856647 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26519" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 30.514191,38.00635 v -0.856647 h -1.337707 v 0.856647 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26521" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 31.811353,38.00635 v -0.856647 h -1.337707 v 0.856647 h 1.337707"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26523" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 33.108515,38.00635 v -0.856647 h -1.337706 v 0.856647 h 1.337706"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26525" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 12.337698,40 V 39.143353 H 11.000002 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26527" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 13.63486,40 V 39.143353 H 12.297164 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26529" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 14.932023,40 V 39.143353 H 13.594326 V 40 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26531" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 16.229185,40 V 39.143353 H 14.891489 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26533" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 17.526347,40 V 39.143353 H 16.188651 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26535" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 18.82351,40 V 39.143353 H 17.485814 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26537" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 20.120672,40 V 39.143353 H 18.782976 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26539" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 21.417834,40 V 39.143353 H 20.080138 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26541" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 25.317426,40 V 39.143353 H 23.97973 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26543" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 26.614588,40 V 39.143353 H 25.276892 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26545" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 27.911751,40 V 39.143353 H 26.574055 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26547" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 29.208913,40 V 39.143353 H 27.871217 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26549" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 30.506076,40 V 39.143353 H 29.168379 V 40 h 1.337697"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26551" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 31.803238,40 V 39.143353 H 30.465542 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26553" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 33.1004,40 V 39.143353 H 31.762704 V 40 H 33.1004"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26555" />
+  <path
+     inkscape:connector-curvature="0"
+     d="M 34.397563,40 V 39.143353 H 33.059867 V 40 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26557" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 26.771875,20.096112 v -0.856646 h -1.337696 v 0.856646 h 1.337696"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1.01707184"
+     id="path26259-9" />
+  <path
+     inkscape:connector-curvature="0"
+     d="m 34.106609,20.024203 v -0.856646 h -5.867973 v 0.856646 h 5.867973"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2px;line-height:100%;font-family:'BLOKK Neue';-inkscape-font-specification:'BLOKK Neue';letter-spacing:0px;word-spacing:0px;display:inline;opacity:0.2;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.13018346"
+     id="path26259-4" />
+  <rect
+     style="opacity:1;fill:#c0c0c0;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.45527315;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+     id="rect835-7"
+     width="7"
+     height="1"
+     x="7.9739265"
+     y="9.9591188" />
+  <path
+     sodipodi:type="inkscape:offset"
+     inkscape:radius="0"
+     inkscape:original="M 23.732422 -16.171875 C 22.589844 -16.171875 21.580078 -15.927734 20.701172 -15.439453 C 19.832031 -14.951172 19.074219 -14.214844 18.429688 -13.228516 L 18.429688 -15.777344 L 15.720703 -15.777344 L 15.720703 0.62890625 L 18.429688 0.62890625 L 18.429688 -8.6425781 C 18.429688 -10.244141 18.849609 -11.509766 19.689453 -12.4375 C 20.529297 -13.365234 21.677734 -13.828125 23.132812 -13.828125 C 24.34375 -13.828125 25.251953 -13.443359 25.857422 -12.671875 C 26.462891 -11.900391 26.765625 -10.738281 26.765625 -9.1855469 L 26.765625 0.62890625 L 29.460938 0.62890625 L 29.460938 -9.2734375 C 29.460938 -11.539062 28.976562 -13.251953 28.009766 -14.414062 C 27.042969 -15.585938 25.617188 -16.171875 23.732422 -16.171875 z M 41.736328 -16.171875 C 39.275391 -16.171875 37.316406 -15.380859 35.861328 -13.798828 C 34.416016 -12.226562 33.693359 -10.097656 33.693359 -7.4121094 C 33.693359 -4.8144531 34.455078 -2.7539062 35.978516 -1.2304688 C 37.511719 0.29296875 39.587891 1.0546875 42.205078 1.0546875 C 43.25 1.0546875 44.279297 0.94726562 45.294922 0.73242188 C 46.310547 0.51757812 47.302734 0.20507812 48.269531 -0.20507812 L 48.269531 -2.7539062 C 47.3125 -2.2460938 46.345703 -1.8652344 45.369141 -1.6113281 C 44.402344 -1.3574219 43.400391 -1.2304688 42.365234 -1.2304688 C 40.578125 -1.2304688 39.181641 -1.7148438 38.175781 -2.6816406 C 37.179688 -3.6582031 36.623047 -5.0742188 36.505859 -6.9296875 L 48.898438 -6.9296875 L 48.898438 -8.2480469 C 48.898438 -10.689453 48.253906 -12.617188 46.964844 -14.033203 C 45.685547 -15.458984 43.943359 -16.171875 41.736328 -16.171875 z M 77.947266 -16.171875 C 75.486328 -16.171875 73.527344 -15.380859 72.072266 -13.798828 C 70.626953 -12.226562 69.904297 -10.097656 69.904297 -7.4121094 C 69.904297 -4.8144531 70.666016 -2.7539062 72.189453 -1.2304688 C 73.722656 0.29296875 75.798828 1.0546875 78.416016 1.0546875 C 79.460938 1.0546875 80.490234 0.94726562 81.505859 0.73242188 C 82.521484 0.51757812 83.513672 0.20507812 84.480469 -0.20507812 L 84.480469 -2.7539062 C 83.523438 -2.2460938 82.556641 -1.8652344 81.580078 -1.6113281 C 80.613281 -1.3574219 79.611328 -1.2304688 78.576172 -1.2304688 C 76.789062 -1.2304688 75.392578 -1.7148438 74.386719 -2.6816406 C 73.390625 -3.6582031 72.833984 -5.0742188 72.716797 -6.9296875 L 85.109375 -6.9296875 L 85.109375 -8.2480469 C 85.109375 -10.689453 84.464844 -12.617188 83.175781 -14.033203 C 81.896484 -15.458984 80.154297 -16.171875 77.947266 -16.171875 z M 97.664062 -16.171875 C 96.365234 -16.171875 95.261719 -15.927734 94.353516 -15.439453 C 93.445312 -14.960938 92.707031 -14.224609 92.140625 -13.228516 L 92.140625 -15.777344 L 89.431641 -15.777344 L 89.431641 0.62890625 L 92.140625 0.62890625 L 92.140625 -8.0136719 C 92.140625 -9.8691406 92.546875 -11.289062 93.357422 -12.275391 C 94.177734 -13.271484 95.349609 -13.769531 96.873047 -13.769531 C 97.302734 -13.769531 97.693359 -13.726562 98.044922 -13.638672 C 98.40625 -13.560547 98.738281 -13.433594 99.041016 -13.257812 L 99.025391 -16.025391 C 98.751953 -16.074219 98.503906 -16.109375 98.279297 -16.128906 C 98.054688 -16.158203 97.849609 -16.171875 97.664062 -16.171875 z M 51.388672 -15.777344 L 57.541016 0.62890625 L 61.203125 0.62890625 L 67.355469 -15.777344 L 64.5 -15.777344 L 59.373047 -2.0078125 L 54.246094 -15.777344 L 51.388672 -15.777344 z M 41.765625 -13.886719 C 43.09375 -13.886719 44.158203 -13.447266 44.958984 -12.568359 C 45.769531 -11.689453 46.183594 -10.513672 46.203125 -9.0390625 L 36.59375 -9.0234375 C 36.730469 -10.566406 37.248047 -11.763672 38.146484 -12.613281 C 39.054688 -13.462891 40.261719 -13.886719 41.765625 -13.886719 z M 77.976562 -13.886719 C 79.304688 -13.886719 80.369141 -13.447266 81.169922 -12.568359 C 81.980469 -11.689453 82.394531 -10.513672 82.414062 -9.0390625 L 72.804688 -9.0234375 C 72.941406 -10.566406 73.458984 -11.763672 74.357422 -12.613281 C 75.265625 -13.462891 76.472656 -13.886719 77.976562 -13.886719 z "
+     style="font-style:normal;font-weight:normal;font-size:30px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.58823529;stroke:none;stroke-width:0.75"
+     id="text863"
+     d="m 23.732422,-16.171875 c -1.142578,0 -2.152344,0.244141 -3.03125,0.732422 -0.869141,0.488281 -1.626953,1.224609 -2.271484,2.210937 v -2.548828 H 15.720703 V 0.62890625 h 2.708985 V -8.6425781 c 0,-1.6015629 0.419921,-2.8671879 1.259765,-3.7949219 0.839844,-0.927734 1.988281,-1.390625 3.443359,-1.390625 1.210938,0 2.119141,0.384766 2.72461,1.15625 0.605469,0.771484 0.908203,1.933594 0.908203,3.4863281 v 9.81445315 h 2.695313 V -9.2734375 c 0,-2.2656245 -0.484376,-3.9785155 -1.451172,-5.1406245 -0.966797,-1.171876 -2.392578,-1.757813 -4.277344,-1.757813 z m 18.003906,0 c -2.460937,0 -4.419922,0.791016 -5.875,2.373047 -1.445312,1.572266 -2.167969,3.701172 -2.167969,6.3867186 0,2.5976563 0.761719,4.6582032 2.285157,6.1816406 1.533203,1.52343755 3.609375,2.2851563 6.226562,2.2851563 1.044922,0 2.074219,-0.10742188 3.089844,-0.32226562 1.015625,-0.21484376 2.007812,-0.52734376 2.974609,-0.9375 V -2.7539062 c -0.957031,0.5078124 -1.923828,0.8886718 -2.90039,1.1425781 -0.966797,0.2539062 -1.96875,0.3808593 -3.003907,0.3808593 -1.787109,0 -3.183593,-0.484375 -4.189453,-1.4511718 -0.996093,-0.9765625 -1.552734,-2.3925782 -1.669922,-4.2480469 h 12.392579 v -1.3183594 c 0,-2.4414061 -0.644532,-4.3691411 -1.933594,-5.7851561 -1.279297,-1.425781 -3.021485,-2.138672 -5.228516,-2.138672 z m 36.210938,0 c -2.460938,0 -4.419922,0.791016 -5.875,2.373047 -1.445313,1.572266 -2.167969,3.701172 -2.167969,6.3867186 0,2.5976563 0.761719,4.6582032 2.285156,6.1816406 1.533203,1.52343755 3.609375,2.2851563 6.226563,2.2851563 1.044922,0 2.074218,-0.10742188 3.089843,-0.32226562 1.015625,-0.21484376 2.007813,-0.52734376 2.97461,-0.9375 V -2.7539062 c -0.957031,0.5078124 -1.923828,0.8886718 -2.900391,1.1425781 -0.966797,0.2539062 -1.96875,0.3808593 -3.003906,0.3808593 -1.78711,0 -3.183594,-0.484375 -4.189453,-1.4511718 -0.996094,-0.9765625 -1.552735,-2.3925782 -1.669922,-4.2480469 h 12.392578 v -1.3183594 c 0,-2.4414061 -0.644531,-4.3691411 -1.933594,-5.7851561 -1.279297,-1.425781 -3.021484,-2.138672 -5.228515,-2.138672 z m 19.716796,0 c -1.298828,0 -2.402343,0.244141 -3.310546,0.732422 -0.908204,0.478515 -1.646485,1.214844 -2.212891,2.210937 v -2.548828 H 89.431641 V 0.62890625 h 2.708984 V -8.0136719 c 0,-1.8554687 0.40625,-3.2753901 1.216797,-4.2617191 0.820312,-0.996093 1.992187,-1.49414 3.515625,-1.49414 0.429687,0 0.820312,0.04297 1.171875,0.130859 0.361328,0.07813 0.693359,0.205078 0.996094,0.38086 l -0.01563,-2.767579 c -0.273438,-0.04883 -0.521485,-0.08398 -0.746094,-0.103515 -0.224609,-0.0293 -0.429688,-0.04297 -0.615235,-0.04297 z m -46.27539,0.394531 6.152344,16.40625025 h 3.662109 L 67.355469,-15.777344 H 64.5 L 59.373047,-2.0078125 54.246094,-15.777344 Z m -9.623047,1.890625 c 1.328125,0 2.392578,0.439453 3.193359,1.31836 0.810547,0.878906 1.22461,2.054687 1.244141,3.5292965 l -9.609375,0.015625 c 0.136719,-1.5429685 0.654297,-2.7402345 1.552734,-3.5898435 0.908204,-0.84961 2.115235,-1.273438 3.619141,-1.273438 z m 36.210937,0 c 1.328126,0 2.392579,0.439453 3.19336,1.31836 0.810547,0.878906 1.224609,2.054687 1.24414,3.5292965 l -9.609374,0.015625 c 0.136718,-1.5429685 0.654296,-2.7402345 1.552734,-3.5898435 0.908203,-0.84961 2.115234,-1.273438 3.61914,-1.273438 z"
+     transform="matrix(0.096015,0,0,0.096015,6.4645044,10.898734)" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#000000;fill-opacity:0.39215686;stroke-width:1.33333325"
+     d="M 7.9999994,12.000001 V 14 h 9.9378896 v -1.999999 z m 0,0"
+     id="path23-9" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#000000;fill-opacity:0.39215686;stroke-width:1.52565539"
+     d="m 7.9999994,8.000001 v 2 H 21.011573 v -2 z m 0,0"
+     id="path23-9-8" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#000000;fill-opacity:0.39215686;stroke-width:1.33333325"
+     d="m 11.999999,10.000001 v 2 h 9.93789 v -2 z m 0,0"
+     id="path23-9-5" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:#ffd412;fill-opacity:1;stroke-width:1.33333302"
+     d="M 2,8.000002 V 16 H 25.999997 V 8.000002 Z m 0,0"
+     id="path23-9-3" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     x="4.3728814"
+     y="21.406778"
+     id="text2256"><tspan
+       sodipodi:role="line"
+       id="tspan2254"
+       x="4.3728814"
+       y="56.797401" /></text>
+  <path
+     sodipodi:type="inkscape:offset"
+     inkscape:radius="0"
+     inkscape:original="M 61.556641 -18.035156 L 61.556641 -13.484375 L 65.150391 -13.484375 L 65.150391 -18.035156 L 61.556641 -18.035156 z M 31.791016 -16.804688 L 31.791016 12.355469 L 35.619141 12.355469 L 35.619141 -12.039062 L 48.548828 12.355469 L 53.861328 12.355469 L 53.861328 -16.804688 L 50.033203 -16.804688 L 50.033203 7.5898438 L 37.103516 -16.804688 L 31.791016 -16.804688 z M 83.158203 -10.046875 C 81.582682 -10.046875 80.222005 -9.7278646 79.076172 -9.0898438 C 77.930339 -8.4518229 76.947266 -7.4622396 76.126953 -6.1210938 L 76.126953 -9.5195312 L 72.513672 -9.5195312 L 72.513672 12.355469 L 76.126953 12.355469 L 76.126953 -0.0078125 C 76.126953 -2.1302083 76.667318 -3.8098958 77.748047 -5.046875 C 78.828776 -6.296875 80.287109 -6.921875 82.123047 -6.921875 C 83.672526 -6.921875 84.818359 -6.4140625 85.560547 -5.3984375 C 86.302734 -4.3958333 86.673828 -2.8398438 86.673828 -0.73046875 L 86.673828 12.355469 L 90.287109 12.355469 L 90.287109 -0.0078125 C 90.287109 -2.1432292 90.827474 -3.8294271 91.908203 -5.0664062 C 92.988932 -6.3033854 94.460286 -6.921875 96.322266 -6.921875 C 97.845703 -6.921875 98.978516 -6.4140625 99.720703 -5.3984375 C 100.46289 -4.3828125 100.83398 -2.8268229 100.83398 -0.73046875 L 100.83398 12.355469 L 104.44727 12.355469 L 104.44727 -0.84765625 C 104.44727 -3.7903646 103.82878 -6.0559896 102.5918 -7.6445312 C 101.35482 -9.2460938 99.597005 -10.046875 97.318359 -10.046875 C 95.625651 -10.046875 94.154297 -9.6627604 92.904297 -8.8945312 C 91.654297 -8.1263021 90.580078 -6.9348958 89.681641 -5.3203125 C 89.147786 -6.8567708 88.320964 -8.0286458 87.201172 -8.8359375 C 86.094401 -9.6432292 84.746745 -10.046875 83.158203 -10.046875 z M 61.556641 -9.5195312 L 61.556641 12.355469 L 65.150391 12.355469 L 65.150391 -9.5195312 L 61.556641 -9.5195312 z "
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     id="text2262"
+     d="m 61.556641,-18.035156 v 4.550781 h 3.59375 v -4.550781 z m -29.765625,1.230468 v 29.160157 h 3.828125 v -24.394531 l 12.929687,24.394531 h 5.3125 V -16.804688 H 50.033203 V 7.5898438 L 37.103516,-16.804688 Z m 51.367187,6.757813 c -1.575521,0 -2.936198,0.3190104 -4.082031,0.9570312 -1.145833,0.6380209 -2.128906,1.6276042 -2.949219,2.96875 V -9.5195312 H 72.513672 V 12.355469 h 3.613281 V -0.0078125 c 0,-2.1223958 0.540365,-3.8020833 1.621094,-5.0390625 1.080729,-1.25 2.539062,-1.875 4.375,-1.875 1.549479,0 2.695312,0.5078125 3.4375,1.5234375 0.742187,1.0026042 1.113281,2.5585937 1.113281,4.66796875 V 12.355469 h 3.613281 V -0.0078125 c 0,-2.1354167 0.540365,-3.8216146 1.621094,-5.0585937 1.080729,-1.2369792 2.552083,-1.8554688 4.414063,-1.8554688 1.523437,0 2.65625,0.5078125 3.398437,1.5234375 0.742187,1.015625 1.113277,2.5716146 1.113277,4.66796875 V 12.355469 h 3.61329 V -0.84765625 c 0,-2.94270835 -0.61849,-5.20833335 -1.85547,-6.79687495 -1.23698,-1.6015626 -2.994795,-2.4023438 -5.273441,-2.4023438 -1.692708,0 -3.164062,0.3841146 -4.414062,1.1523438 -1.25,0.7682291 -2.324219,1.9596354 -3.222656,3.5742187 -0.533855,-1.5364583 -1.360677,-2.7083333 -2.480469,-3.515625 -1.106771,-0.8072917 -2.454427,-1.2109375 -4.042969,-1.2109375 z M 61.556641,-9.5195312 V 12.355469 h 3.59375 V -9.5195312 Z"
+     transform="matrix(0.19742931,0,0,0.19742931,0.96773697,12.676668)" />
 </svg>

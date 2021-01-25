@@ -12,7 +12,7 @@
    height="48"
    version="1"
    id="svg14"
-   sodipodi:docname="application-epub+zip.svg"
+   sodipodi:docname="application-vnd.insync.link.drive.note.svg"
    inkscape:version="0.92.4 5da689c313, 2019-01-14">
   <metadata
      id="metadata20">
@@ -49,6 +49,34 @@
        x2="19.290161"
        y2="7.4608922"
        gradientUnits="userSpaceOnUse" />
+    <clipPath
+       id="clip1-3">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 20,2 H 31 V 13 H 20 Z m 0,0"
+         id="path232" />
+    </clipPath>
+    <clipPath
+       id="clip2-6">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 20.515625,2.625 9.8125,9.8125 h -8.304687 c -0.730469,0 -1.507813,-0.777344 -1.507813,-1.507812 z m 0,0"
+         id="path235" />
+    </clipPath>
+    <clipPath
+       id="clip3">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 12,12 H 24 V 27 H 12 Z m 0,0"
+         id="path42" />
+    </clipPath>
+    <clipPath
+       id="clip4">
+      <path
+         inkscape:connector-curvature="0"
+         d="m 31.617188,19.875 c 0,7.445312 -6.097657,13.472656 -13.613282,13.472656 -7.515625,0 -13.613281,-6.027344 -13.613281,-13.472656 0,-7.445312 6.097656,-13.476562 13.613281,-13.476562 7.515625,0 13.613282,6.03125 13.613282,13.476562 z m 0,0"
+         id="path45" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -65,9 +93,9 @@
      showgrid="false"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:zoom="6.9532167"
-     inkscape:cx="26.007038"
-     inkscape:cy="19.169663"
+     inkscape:zoom="9.8333334"
+     inkscape:cx="6.7702273"
+     inkscape:cy="18.029474"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -101,18 +129,18 @@
   </g>
   <g
      id="g1075"
-     style="fill:#66cc33;fill-opacity:1">
+     style="fill:#ffcc00;fill-opacity:1">
     <path
        sodipodi:nodetypes="cccccccc"
        inkscape:connector-curvature="0"
        id="path1042"
        d="M 27.988281,4 H 8 v 40 h 32 l -0.01172,-28.013672 c -13.282156,-13.2821557 -13.282156,-13.2821557 0,0 h -12 z"
-       style="opacity:1;fill:#66cc33;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:114.80312347;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+       style="opacity:1;fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:114.80312347;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
     <path
        inkscape:connector-curvature="0"
        id="rect1011"
        d="m 27.98828,4 v 11.986328 h 12 L 28.001952,4 Z"
-       style="opacity:1;fill:#66cc33;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:114.80312347;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
+       style="opacity:1;fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:114.80312347;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers" />
   </g>
   <path
      sodipodi:nodetypes="cccccccc"
@@ -125,9 +153,18 @@
      d="m 28.001952,4 v 11.986329 h 12 L 28.015624,4 Z"
      id="rect1011-5"
      inkscape:connector-curvature="0" />
-  <path
-     inkscape:connector-curvature="0"
-     style="fill:#ffffff;stroke-width:1.33333325"
-     d="M 24,36.76823 18.536459,31.304688 24,25.841146 25.822917,27.658854 22.177082,31.304688 24,33.127603 29.463542,27.658854 24.703125,22.898437 c -0.385417,-0.385416 -1.020833,-0.385416 -1.406251,0 l -7.703125,7.703126 c -0.385416,0.385416 -0.385416,1.020833 0,1.406249 l 7.703125,7.703126 c 0.390626,0.385416 1.020834,0.385416 1.406251,0 l 7.703125,-7.703126 c 0.385416,-0.390625 0.385416,-1.020833 0,-1.406249 l -1.119791,-1.119792 z m 0,0"
-     id="path112" />
+  <g
+     transform="matrix(1.3333333,0,0,1.3333333,4.3104799e-4,4.1250009)"
+     clip-path="url(#clip3)"
+     id="g64">
+    <g
+       clip-path="url(#clip4)"
+       id="g62">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff"
+         d="m 18.007812,12.84375 c -1.714843,0.0039 -3.394531,0.761719 -4.425781,2.164062 -1.609375,2.1875 -1.023437,5.15625 1.269531,6.703126 v 4.609374 h 0.785157 v 0.585938 h 4.734375 v -0.585938 h 0.777344 v -4.609374 c 0.492187,-0.335938 0.929687,-0.738282 1.269531,-1.207032 1.640625,-2.242187 1.003906,-5.296875 -1.4375,-6.816406 -0.914063,-0.566406 -1.945313,-0.84375 -2.976563,-0.84375 m -0.0078,0.890625 c 0.839844,0 1.6875,0.226563 2.441406,0.691406 2,1.246094 2.523438,3.730469 1.171875,5.574219 -0.3125,0.421875 -0.707031,0.792969 -1.167969,1.082031 l -0.07813,1.136719 H 15.625 l -0.06641,-1.136719 c -2.007813,-1.246093 -2.53125,-3.730469 -1.171875,-5.570312 0.84375,-1.152344 2.214843,-1.777344 3.609375,-1.769531 m -2.367188,9.066406 h 4.734375 v 1.167968 h -4.734375 m 0,0.585938 h 4.734375 v 1.003906 h -4.734375 m 0,-1.003906"
+         id="path60" />
+    </g>
+  </g>
 </svg>
