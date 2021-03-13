@@ -8,7 +8,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
    sodipodi:docname="octopi.svg"
    id="svg32"
    version="1"
@@ -39,32 +39,6 @@
          offset="1"
          style="stop-color:#26e074;stop-opacity:1" />
     </linearGradient>
-    <filter
-       height="1.216"
-       y="-0.108"
-       width="1.216"
-       x="-0.108"
-       id="filter867"
-       style="color-interpolation-filters:sRGB"
-       inkscape:collect="always">
-      <feGaussianBlur
-         id="feGaussianBlur869"
-         stdDeviation="0.27"
-         inkscape:collect="always" />
-    </filter>
-    <filter
-       height="1.216"
-       y="-0.108"
-       width="1.216"
-       x="-0.108"
-       id="filter871"
-       style="color-interpolation-filters:sRGB"
-       inkscape:collect="always">
-      <feGaussianBlur
-         id="feGaussianBlur873"
-         stdDeviation="0.27"
-         inkscape:collect="always" />
-    </filter>
     <linearGradient
        gradientTransform="matrix(1,0,0,0.93333238,1.2e-4,1.0666675)"
        gradientUnits="userSpaceOnUse"
@@ -95,11 +69,11 @@
      inkscape:window-y="0"
      inkscape:window-x="0"
      inkscape:cy="16"
-     inkscape:cx="14.974359"
+     inkscape:cx="13.948718"
      inkscape:zoom="24.375"
      showgrid="false"
      id="namedview34"
-     inkscape:window-height="1000"
+     inkscape:window-height="999"
      inkscape:window-width="1920"
      inkscape:pageshadow="2"
      inkscape:pageopacity="0"
@@ -120,26 +94,6 @@
      id="path2"
      d="m 14.23512,1.9999999 c -5.6466,0 -10.193,4.4898887 -10.231,10.0799891 H 4 v 16.053317 c 0,1.551198 1.6984,1.849678 3,1.866198 1.2016,0.01525 3,-0.315028 3,-1.866198 0,1.551198 1.7982,1.866198 3,1.866198 1.2018,0 2.9599,-0.566421 3,-1.866198 0,1.551198 1.7982,1.866198 3,1.866198 1.2018,0 2.9599,-0.566421 3,-1.866198 0,1.551198 1.7982,1.866198 3,1.866198 1.2018,0 3,-0.315028 3,-1.866198 V 12.079989 H 27.9959 C 27.9579,6.4898886 23.4109,1.9999999 17.7649,1.9999999 Z"
      fill="#3fc778" />
-  <g
-     style="filter:url(#filter871);opacity:0.5"
-     id="g8"
-     transform="translate(0,1)"
-     opacity=".2">
-    <rect
-       id="rect4"
-       ry="3"
-       y="9"
-       x="9"
-       height="6"
-       width="6" />
-    <rect
-       id="rect6"
-       ry="1"
-       y="11"
-       x="13"
-       height="2"
-       width="2" />
-  </g>
   <rect
      fill="#ecf0f1"
      width="6"
@@ -157,26 +111,6 @@
      y="11"
      ry="1"
      id="rect12" />
-  <g
-     style="filter:url(#filter867);opacity:0.5"
-     id="g20"
-     transform="translate(11,1)"
-     opacity=".2">
-    <rect
-       id="rect16"
-       ry="3"
-       y="9"
-       x="9"
-       height="6"
-       width="6" />
-    <rect
-       id="rect18"
-       ry="1"
-       y="11"
-       x="13"
-       height="2"
-       width="2" />
-  </g>
   <rect
      fill="#ecf0f1"
      width="6"
